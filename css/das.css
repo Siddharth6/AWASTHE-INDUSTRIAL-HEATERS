@@ -3,7 +3,7 @@
         
         body {
             font-family: 'Poppins', sans-serif;
-            background: #fafafa;
+            background: #cac9c9;
         }
 
         p {
@@ -52,7 +52,7 @@
             left: 0;
             height: 100vh;
             z-index: 999;
-            background: #7386D5;
+            background: rgb(61, 56, 56);
             color: #fff;
             transition: all 0.3s;
         }
@@ -63,12 +63,12 @@
 
         #sidebar .sidebar-header {
             padding: 20px;
-            background: #6d7fcc;
+            background: #4c4f50;
         }
 
         #sidebar ul.components {
             padding: 20px 0;
-            border-bottom: 1px solid #47748b;
+            border-bottom: 1px solid #000507;
         }
 
         #sidebar ul p {
@@ -82,13 +82,13 @@
             display: block;
         }
         #sidebar ul li a:hover {
-            color: #7386D5;
+            color: rgb(119, 121, 131);
             background: #fff;
         }
 
         #sidebar ul li.active > a, a[aria-expanded="true"] {
             color: #fff;
-            background: #6d7fcc;
+            background: #404042;
         }
 
 
@@ -112,7 +112,7 @@
         ul ul a {
             font-size: 0.9em !important;
             padding-left: 30px !important;
-            background: #6d7fcc;
+            background: #303033;
         }
 
         ul.CTAs {
@@ -128,10 +128,10 @@
         }
         a.download {
             background: #fff;
-            color: #7386D5;
+            color: rgb(59, 62, 71);
         }
         a.article, a.article:hover {
-            background: #6d7fcc !important;
+            background: #525563 !important;
             color: #fff !important;
         }
 

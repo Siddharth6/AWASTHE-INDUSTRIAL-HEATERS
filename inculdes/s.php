@@ -19,7 +19,7 @@
                     <ul class="navbar-nav ml-auto navlink">
                         <span style="margin-right:15px;"></span>
                         <li class="nav-item">
-                            <a class="nav-link active px-3" href="index.php">Home</a>
+                            <a class="nav-link active px-3" href="../index.php">Home</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link px-3" href="#about">About</a>
@@ -31,7 +31,7 @@
                             <a class="nav-link px-3" href="#service">Service</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link  px-3" href="php/d.php">Product</a>
+                            <a class="nav-link  px-3" href="../product.php">Product</a>
                         </li>
                         <!-- <li class="nav-item">
                             <a class="nav-link px-3" href="show.php">Interest</a>

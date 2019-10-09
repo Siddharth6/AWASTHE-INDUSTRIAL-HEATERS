@@ -1,8 +1,8 @@
 <?php
-// fetch data to data base
+
 session_start();
 if(!isset($_SESSION['login_user'])){
-    header('location:login.html');
+    header('location:login.php?login');
 }
 error_reporting(0);
 ?>
@@ -15,7 +15,8 @@ error_reporting(0);
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
           
         <!-- Our Custom CSS -->
-        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
         <link rel="stylesheet" href="../css/das.css">
         <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css"> -->
@@ -85,11 +86,11 @@ error_reporting(0);
                 
                 <div class=" card Product" style="display: none;">
                 	<div class=" card-body">
-                	   <form method="post" action="../php/upload.php" enctype="multipart/form-data">
-    
+                	   <form method="post" action="../php/up.php" enctype="multipart/form-data">
+                       <input type="text" class="form-control "name="proname" placeholder="Enter The Product Name" required/> <br/>
 					    <input type="file" class="form-control "name="Filename"> 
 					    <p>Description</p>
-					    <textarea rows="10" cols="40"  class="form-control"name="Description" placeholder="type any Description"></textarea>
+					    <textarea rows="10" cols="40"  class="form-control"name="Description" placeholder="Enter The Product Description" placeholder="type any Description"></textarea>
 					    <br/>
 					    <input TYPE="submit" class="btn btn-outline-success"name="upload" value="Submit"/>
 					</form>

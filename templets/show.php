@@ -1,8 +1,3 @@
-
-
-
-
-
 <section class="py-5"id="about" style="background-color: rgb(248, 236, 236); color:rgb(0, 0, 0);">
                <p class=" text-center text-danger zoom" style="margin-top: 40px; font-size: 50px;"> Products</p>
             <div class="container">
